@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: https://ewerton.dev/sitemap.xml
+Sitemap: https://ewerton.test/sitemap.xml
