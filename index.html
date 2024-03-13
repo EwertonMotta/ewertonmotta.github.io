@@ -23,7 +23,7 @@
 
     <meta name="title" content="ewerton.dev - Desenvolvedor">
     <meta name="author" content="Ewerton Motta" />
-    <meta name="description" content="Desenvolvemos sites e sistemas web personalizados para empresas e microempreendedores. Entre em contato para sua solução digital sob medida!">
+    <meta name="description" content="Desenvolvo sites e sistemas web personalizados para empresas e microempreendedores. Entre em contato para sua solução digital sob medida!">
     <meta name="keywords" content="Desenvolvimento de sites, Desenvolvimento web, Sites estáticos, Sites dinâmicos, Sistemas web, Desenvolvimento de sistemas, Web design, Agência web, Desenvolvedor web, Microempreendedores, Pequenas empresas, Médias empresas, Criação de sites profissionais, Blog corporativo, Gerenciamento de conteúdo, Otimização de sites, SEO, Marketing digital, Presença online">
 
     <meta name="robots" content="index, follow">
@@ -31,20 +31,22 @@
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://ewerton.dev" />
     <meta name="og:title" content="ewerton.dev - Desenvolvedor">
-    <meta name="og:description" content="Desenvolvemos sites e sistemas web personalizados para empresas e microempreendedores. Entre em contato para sua solução digital sob medida!">
+    <meta name="og:description" content="Desenvolvo sites e sistemas web personalizados para empresas e microempreendedores. Entre em contato para sua solução digital sob medida!">
 
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="ewerton.dev - Desenvolvedor">
-    <meta name="twitter:description" content="Desenvolvemos sites e sistemas web personalizados para empresas e microempreendedores. Entre em contato para sua solução digital sob medida!">
+    <meta name="twitter:description" content="Desenvolvo sites e sistemas web personalizados para empresas e microempreendedores. Entre em contato para sua solução digital sob medida!">
 
     <title>ewerton.dev - Desenvolvedor</title>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="https://ewerton.devapple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://ewerton.devfavicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://ewerton.devfavicon-16x16.png">
-    <link rel="manifest" href="https://ewerton.devsite.webmanifest">
+    <link rel="icon" type="image/x-icon" href="https://ewerton.dev/favicon.ico">
 
-    <link rel="stylesheet" href="https://ewerton.dev/assets/css/main.css?id=85df798e0360d0b6bbd5c2fa7be289ed">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://ewerton.dev/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://ewerton.dev/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://ewerton.dev/favicon-16x16.png">
+    <link rel="manifest" href="https://ewerton.dev/site.webmanifest">
+
+    <link rel="stylesheet" href="https://ewerton.dev/assets/css/main.css?id=5384508af21c34bdaec3ff6d72888c12">
     <script defer src="https://ewerton.dev/assets/js/main.js?id=c0621a521307a0550560b9c2ac634b9e"></script>
 </head>
 
@@ -382,7 +384,8 @@
         <h3 class="my-4 text-3xl leading-tight">
             Caso prefira, me mande uma mensagem!
         </h3>
-        <form class="mx-auto w-full max-w-xl">
+        <form class="mx-auto w-full max-w-xl" name="contact-form" method="post" action="">
+            <input type="hidden" id="created_at" name="created_at" value="">
             <div class="mb-6 flex flex-wrap">
                 <div class="w-full px-3">
                     <label class="mb-2 block text-left text-sm font-bold text-white" for="name">
@@ -390,7 +393,7 @@
                     </label>
                     <input
                         class="w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
-                        id="name" type="text" placeholder="Carlos Gomes">
+                        id="name" type="text" placeholder="Carlos Gomes" name="name" required>
                 </div>
             </div>
             <div class="mb-6 flex flex-wrap">
@@ -400,7 +403,7 @@
                     </label>
                     <input
                         class="w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
-                        id="email" type="email" placeholder="carlos.gomes@example.com">
+                        id="email" type="email" placeholder="carlos.gomes@example.com" name="email" required>
                 </div>
             </div>
             <div class="mb-6 flex flex-wrap">
@@ -410,15 +413,13 @@
                     </label>
                     <textarea
                         class="w-full appearance-none rounded border border-gray-200 bg-gray-200 px-4 py-2 leading-tight text-gray-700 focus:border-gray-500 focus:bg-white focus:outline-none"
-                        id="message" type="text" placeholder="Escreva sua mensagem"></textarea>
+                        id="message" type="text" placeholder="Escreva sua mensagem" name="message" required></textarea>
                 </div>
             </div>
             <div class="flex flex-wrap">
                 <div class="w-full px-3">
-                    <button
-                        class="focus:shadow-outline mx-auto my-4 transform rounded-full bg-white px-8 py-2 font-bold text-gray-800 shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:underline focus:outline-none lg:mx-0">
-                        Enviar
-                    </button>
+                    <input type="submit" value="Enviar" id="submit"
+                        class="focus:shadow-outline mx-auto my-4 transform cursor-pointer rounded-full bg-white px-8 py-2 font-bold text-gray-800 shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:underline focus:outline-none lg:mx-0" />
                 </div>
             </div>
         </form>
@@ -458,6 +459,8 @@
     </div>
 </footer>
     </main>
+
+    <script defer src="https://ewerton.dev/assets/js/contact.js?id=8d91c64b900ad4cab07e16e75adaae36"></script>
 </body>
 
 </html>
