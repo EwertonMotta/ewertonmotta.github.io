@@ -2,67 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
  <url>
   <loc>https://ewerton.dev/blog</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/categories/acessibilidade</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ewerton.dev/blog/categories/aprendizado</loc>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ewerton.dev/blog/categories/desenvolvimento-pessoal</loc>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/categories/desenvolvimento</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/categories/introducao</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/categories/logica-de-programacao</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ewerton.dev/blog/categories/pensamento-critico</loc>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/categories/programacao-php</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/categories/seguranca</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/blog-do-ewerton-uma-jornada-de-aprendizado-e-compartilhamento</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/acessibilidade-digital-construindo-aplicativos-web-inclusivos-para-todos</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/navegando-em-mares-seguros-seguranca-na-web-em-2024-para-seus-aplicativos</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/desvende-os-misterios-da-logica-de-programacao-pensando-como-um-programador</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
  <url>
   <loc>https://ewerton.dev/blog/variaveis-e-tipos-de-dados-guarde-informacoes-em-seu-programa</loc>
-  <lastmod>2024-07-10T15:04:46+00:00</lastmod>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
+  <changefreq>daily</changefreq>
+ </url>
+ <url>
+  <loc>https://ewerton.dev/blog/raciocinio-logico-para-iniciantes-torne-se-um-solucionador-de-problemas</loc>
+  <lastmod>2024-07-12T11:34:37+00:00</lastmod>
   <changefreq>daily</changefreq>
  </url>
 </urlset>
